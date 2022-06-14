@@ -1,0 +1,29 @@
+// Muller Regular
+@font-face {
+  font-family: 'Muller';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''), url(../fonts/MullerRegular.ttf) format('truetype'),
+    url(../fonts/MullerRegular.woff) format('woff'),
+    url(../fonts/MullerRegular.woff2) format('woff2');
+}
+
+// Muller Medium
+@font-face {
+  font-family: 'Muller';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''), url(../fonts/MullerMedium.ttf) format('truetype'),
+    url(../fonts/MullerMedium.woff) format('woff'),
+    url(../fonts/MullerMedium.woff2) format('woff2');
+}
+
+// Muller Bold
+@font-face {
+  font-family: 'Muller';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''), url(../fonts/MullerBold.ttf) format('truetype'),
+    url(../fonts/MullerBold.woff) format('woff'),
+    url(../fonts/MullerBold.woff2) format('woff2');
+}
