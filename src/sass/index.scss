@@ -10,6 +10,18 @@
 @import './base/fonts';
 @import './base/container';
 @import './base/vars';
-@import './base/reset';
+@import './base/base';
 
 @import './utils/placeholders';
+
+@import './layout/header';
+@import './layout/hero';
+@import './layout/features';
+@import './layout/plan';
+@import './layout/bid';
+@import './layout/salary';
+@import './layout/program';
+@import './layout/about';
+@import './layout/interview';
+@import './layout/location';
+@import './layout/footer';
