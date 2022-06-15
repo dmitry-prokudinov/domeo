@@ -1,9 +1,15 @@
 // vendors
-// utils
 // base
+// utils
 // layout
 // components
+
+@import './vendors/normalize';
+@import './vendors/visually-hidden';
 
 @import './base/fonts';
 @import './base/container';
 @import './base/vars';
+@import './base/reset';
+
+@import './utils/placeholders';
