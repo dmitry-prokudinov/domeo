@@ -1,0 +1,87 @@
+.header {
+  padding-top: 26px;
+
+  @media (min-width: 768px) {
+    padding-top: 29px;
+  }
+  @media (min-width: 1280px) {
+    padding-top: 40px;
+  }
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+}
+
+.header__text {
+  display: none;
+
+  @media (min-width: 768px) {
+    display: inline-block;
+    margin-left: 38px;
+
+    font-size: 14px;
+    line-height: 1.43;
+
+    color: $cl-dark;
+  }
+}
+
+.header__tel {
+  @extend %link;
+
+  display: none;
+
+  @media (min-width: 768px) {
+    display: inline-block;
+
+    margin-left: auto;
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.42;
+
+    color: $cl-dark;
+  }
+}
+
+.header__button-mob {
+  @extend %button;
+
+  margin-left: auto;
+  padding: 10px;
+
+  fill: $svg-fill-secondary;
+  box-shadow: none;
+
+  @media (min-width: 768px) {
+    margin-left: 20px;
+  }
+
+  @media (min-width: 1280px) {
+    display: none;
+  }
+}
+
+.header__button-desk {
+  @extend %button;
+
+  display: none;
+
+  @media (min-width: 1280px) {
+    display: block;
+    margin-left: 32px;
+
+    width: 280px;
+    height: 40px;
+
+    line-height: 1.19;
+
+    color: $cl-accent;
+    background-color: $bg-button-accent;
+    border-color: $border-cl-main;
+
+    box-shadow: none;
+  }
+}

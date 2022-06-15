@@ -5,3 +5,16 @@
 %list {
   list-style-type: none;
 }
+
+%button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: $cl-button;
+  background-color: $bg-button;
+  border-color: transparent;
+
+  border-radius: 8px;
+  box-shadow: 4px 12px 40px rgba(47, 128, 237, 0.35);
+}
