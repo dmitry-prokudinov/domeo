@@ -18,3 +18,28 @@
   border-radius: 8px;
   box-shadow: 4px 12px 40px rgba(47, 128, 237, 0.35);
 }
+
+%title {
+  margin-bottom: 12px;
+  
+  font-size: 28px;
+  line-height: 1;
+  
+  @media screen and (min-width: 768px) {
+    font-size: 48px;
+  }
+  
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 8px;
+  }
+}
+
+%subtitle {
+    font-size: 16px;
+    line-height: 1.4;
+    color: $cl-light;
+    
+    @media screen and (min-width: 768px) {
+      font-size: 20px;
+    }
+}
