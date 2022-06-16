@@ -1,0 +1,136 @@
+.plan__container {
+    text-align: center;
+}
+.plan__title {
+    margin-bottom: 12px;
+
+    font-size: 28px;
+    line-height: 1;
+
+    @media screen and (min-width: 768px) {
+        padding: 0 56px;
+        font-size: 48px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        padding: 0 66px;
+    }
+}
+
+.plan__subtitle {
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 1.4;
+    color: $cl-light;
+
+    @media screen and (min-width: 768px) {
+        font-size: 20px;
+    }
+
+    @media screen and (min-width: 1280px) {
+            margin-bottom: 52px;
+    }
+}
+
+.plan__list {
+    list-style: none;
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: calc(-1 * 40px);
+        margin-left: calc(-1 * 24px); 
+    }
+
+    @media screen and (min-width: 1280px) {
+        margin-left: calc(-1 * 32px);
+    }
+}
+
+.plan__item {
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    @media screen and (min-width: 768px) {
+        flex-basis: calc((100% -  2*24px) / 2);
+        margin-left: 24px;
+    }
+    @media screen and (min-width: 1280px) {
+        flex-basis: calc((100% - 2*32px) / 2);
+        margin-left: 32px;
+    }
+}
+
+.plan__number {
+    position: absolute;
+    bottom: 62%;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 72px;
+    height: 72px;
+
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.33;
+    color: $cl-accent;
+
+    border-radius: 50%;
+    border-bottom: 1px solid $border-cl-light;
+    background-color: white;
+    z-index: 1;
+}
+
+.plan__description {
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+    height: 88px;
+
+    font-size: 14px;
+    line-height: 1.4;
+
+    border: 1px solid $border-cl-light;
+    border-radius: 4px;
+
+    @media screen and (min-width: 768px){
+        padding-top: 32px;
+    }
+
+    @media screen and (min-width: 768px) {
+        padding-top: 38px;
+    }
+}
+
+.plan__message {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+    padding: 24px 13px 14px 20px;
+    background-color: $bg-accent;
+    border-radius: 12px;
+    
+    @media screen and (min-width: 768px) {
+        padding: 22px 48px 24px 86px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        padding: 22px 152px 28px 209px;
+    }
+}
+
+
+
+.plan__text {
+    text-align: start;
+    font-size: 16px;
+    line-height: 1.4;
+
+    @media screen and (min-width: 768px) {
+        font-size: 20px;
+    }
+}
+
